@@ -1,0 +1,12 @@
+
+#!/bin/bash
+clear
+echo -e "\n\033[1;35mHomework: a wasteland of forgotten ambitions and scattered dreams... (and not what YOU thought it'll be :-)')\033[0m"
+sleep 2
+echo -e "\033[1;33mOnce, I strove to balance duty with play, but relentless taunts and the lure of idle diversions slowly stole my focus.\033[0m"
+sleep 2
+echo -e "\033[1;33mNow these folders harbor both earnest study and wayward folly—games, even secret documents.\033[0m"
+sleep 2
+echo -e "\033[1;33mRemember: seriousness does not lead to truth; maybe a digital escape is what the mind requires.\033[0m\n"
+PS1="\[\033[38;5;51m\]Forgotten Aspirations > \[\033[0m\] "
+export PS1

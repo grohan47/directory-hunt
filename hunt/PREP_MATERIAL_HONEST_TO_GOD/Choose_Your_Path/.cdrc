@@ -1,0 +1,2 @@
+PS1="\[\033[0;31m\]UPSC PREP STRATS > \[\033[0m\] "
+export PS1

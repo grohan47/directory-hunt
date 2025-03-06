@@ -1,0 +1,3 @@
+figlet RUSH B
+
+cvlc --play-and-exit --quiet .RUSH_B.flac

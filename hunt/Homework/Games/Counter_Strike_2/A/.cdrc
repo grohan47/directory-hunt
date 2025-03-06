@@ -1,0 +1,17 @@
+echo "Clever."
+
+sleep 2
+
+echo "You remember to not trust the Russians."
+
+sleep 2
+
+
+echo -e "\n\033[1;36mAt bombsite A, what do you do?\033[0m"
+sleep 2
+echo -e "\n\033[1;33mHint: When the pressure mounts and time is ticking, look for the most popular map of all time"
+
+
+PS1="\[\033[1;32m\]BOMBSITE A > \[\033[0m\]"
+export PS1
+

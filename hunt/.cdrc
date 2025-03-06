@@ -1,0 +1,52 @@
+#!/bin/bash
+# .cdrc - Wonderland escape room per-directory configuration
+
+# Define color variables (using red for the figlet text).
+RED=$'\033[38;5;196m'
+RESET=$'\033[0m'
+
+# Define the words to display.
+words=("welcome" "to" "wonderland!!")
+
+# Check if figlet is available.
+if command -v figlet &> /dev/null; then
+    use_figlet=true
+else
+    use_figlet=false
+fi
+
+# Loop through each word.
+for (( i=0; i<${#words[@]}; i++ )); do
+    word="${words[i]}"
+
+    if $use_figlet; then
+        # Generate figlet output and display it in red.
+        figlet_output=$(figlet "$word")
+        echo -e "${RED}${figlet_output}${RESET}"
+    else
+        # Fallback: just print the word in red.
+        echo -e "${RED}$word${RESET}"
+    fi
+
+    # For all words except the last one, pause and clear the screen.
+    if (( i < ${#words[@]} - 1 )); then
+        sleep 1
+        clear
+    fi
+done
+
+echo "Hello, and welcome to Wonderland! (AKA My ScheißePosting folder). I felt a bit sneaky on a Sunday so I thought I would make my files as convoluted as possible for some reason (speaks volumes to my prep situation doesn't it...')"
+
+sleep 4
+clear
+echo "Of course, all my 'secret' files are where all men of culture store their 'secret stash'; a folder often mistook to be more innocent than its contents..."
+
+sleep 2
+echo "Anyways, enjoy?"
+
+
+# After displaying the final word ("wonderland!!"), set the customized prompt.
+# In this example, the prompt is "Mad Hatter's Brew >" in cyan.
+
+PS1="\[\033[38;5;51m\]Wonderland\[\033[0m\] > "
+export PS1

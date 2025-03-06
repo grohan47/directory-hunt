@@ -1,0 +1,9 @@
+clear
+echo "I Hope noone, except myself, made it this far."
+
+echo "Is my secret in LA?"
+
+
+PS1="Secret > "
+
+export PS1

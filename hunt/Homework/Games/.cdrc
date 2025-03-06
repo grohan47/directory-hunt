@@ -1,0 +1,14 @@
+clear
+echo "Remember:"
+
+sleep 3
+
+GREEN=$'\033[0;32m'
+RESET=$'\033[0m'
+
+if command -v figlet &> /dev/null; then
+    figlet -f slant "No Russian." | sed "s/^/${GREEN}/; s/$/${RESET}/"
+else
+    echo -e "${GREEN}No Russian.${RESET}"
+fi
+

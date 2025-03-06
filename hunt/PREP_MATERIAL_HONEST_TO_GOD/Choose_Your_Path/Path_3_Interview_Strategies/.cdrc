@@ -1,0 +1,9 @@
+echo "Pehle interview dene ki naubat to aa jaye, tab to jaake interview strategy dekhenge :-)"
+
+sleep 4
+
+echo "Let's try that again, shall we?"
+
+sleep 2
+
+cd /home/checkmate/.wonderland/

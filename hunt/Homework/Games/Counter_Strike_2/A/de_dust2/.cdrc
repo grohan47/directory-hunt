@@ -1,0 +1,13 @@
+clear
+
+echo "In the labyrinth of blurred realities and half-remembered dreams,
+a singular path emerges—a journey where gravity loses its grip.
+When the weight of the world fades and the cosmic horizon calls,
+the haunting strains of Zimmer’s score echo through the void.
+Let his music be your guide as you follow the trail where time dissolves
+and only the starlight reveals the way beyond the familiar."
+
+
+PS1="Which Movie is this? > "
+
+export PS1

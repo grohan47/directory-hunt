@@ -1,0 +1,28 @@
+#!/bin/bash
+# .cdrc for the Minecraft folder
+
+# Clear the screen and print the cinematic message in blue
+clear
+echo -e "\n\033[1;34m------------------------------------------------------------"
+echo -e "  As the blocky horizons of Minecraft unfurl before you,"
+echo -e "  a deep, serene calm settles over your weary soul."
+echo -e "  In this realm of endless creation and wonder, you"
+echo -e "  have found inner peace – a quiet finale to your quest."
+echo -e "------------------------------------------------------------\033[0m\n"
+
+# Wait for 10 seconds to let the moment sink in
+sleep 8
+
+# Clear the screen again and bring you back to reality
+clear
+echo -e "\n\033[1;31mBut that's not what you wanted, is it?\033[0m\n"
+
+sleep 3
+clear
+
+echo -e "\n\033[1;31mLet's take the Red Pill again, shall we?'\033[0m\n"
+
+sleep 2
+
+cd /home/checkmate/.wonderland/
+
