@@ -12,7 +12,7 @@ echo "Well, let's try that again, shall we?"
 
 sleep 6
 
-cd /home/checkmate/.wonderland/
+cd ../../../../../../../
 
 
 

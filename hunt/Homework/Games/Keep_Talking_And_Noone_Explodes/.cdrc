@@ -1,6 +1,6 @@
 
 
-cvlc --play-and-exit --fullscreen --quiet /home/checkmate/.wonderland/Homework/Games/Counter_Strike_2/B/KEEP_GOING/LESSGO/SUKA_BLYAT_FASTER_MY_FRIEND/.boom.webm
+cvlc --play-and-exit --fullscreen --quiet ../Counter_Strike_2/B/KEEP_GOING/LESSGO/SUKA_BLYAT_FASTER_MY_FRIEND/.boom.webm
 
 clear
 
@@ -12,7 +12,8 @@ echo "Well, let's try that again, shall we?"
 
 sleep 6
 
-cd /home/checkmate/.wonderland/
+cd ../../../
+
 
 
 
